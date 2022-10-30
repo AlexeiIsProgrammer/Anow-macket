@@ -504,8 +504,6 @@ body{
 
 /*works section*/
 
-.works {
-}
 .works__article .container{
     display: flex;
     flex-direction: row;
@@ -517,9 +515,6 @@ body{
     max-width: 400px;
 }
 
-.works__container {
-    
-}
 .works__works-body {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -613,10 +608,6 @@ body{
     .works-body__billet {
         padding: 10px;
     }
-}
-
-@media (max-width: 420px) {
-
 }
 
 /*skills*/
@@ -1059,8 +1050,7 @@ body{
     row-gap: 20px;
     grid-template-rows: 1fr 1fr;
 }
-.info {
-}
+
 .info__logo {
     color: #fff;
     font-size: 40px;
@@ -1075,26 +1065,21 @@ body{
 .info__phone {
     font-size: 15px;
 }
-.info__mail {
-}
+
 .footer__links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
-.links {
-}
-.links__body {
-}
+
 .links__header {
     color: #fff;
     font-size: 24px;
     line-height: 31px;
     margin-bottom: 10px;
 }
-.links__list {
-}
+
 .links__item {
     margin-bottom: 5px;
 }
@@ -1108,8 +1093,7 @@ body{
 .footer__license {
     text-align: center;
 }
-.license {
-}
+
 .license__description {
     font-size: 15px;
     line-height: 30px;
